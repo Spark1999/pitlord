@@ -1,10 +1,15 @@
+import inheritance.Animal;
+import inheritance.Dog;
+import inheritance.Lizard;
+
+import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-
+  /*
         // create and populate:
         ArrayList<String> animals = new ArrayList<>();
         animals.add("bear");
@@ -47,7 +52,10 @@ public class Main {
             System.out.println("Animal after clearing is: " + animals.get(i));
         }
 
-        System.out.println("List has " + animals.size() + " animals");
+        System.out.println("List has " + animals.size() + " animals"); */
+
+
+        makeAnimals();
     }
 
 
@@ -55,5 +63,24 @@ public class Main {
 
     public static void makeAnimals() {
 
+
+        Animal beatle = new Animal();
+//        System.out.println(beatle);
+
+        Animal fox = new Animal("foxy");
+//        System.out.println(fox);
+
+        Animal dog = new Animal("Buky", 5);
+//        System.out.println(dog);
+
+        Lizard joe = new Lizard();
+//        System.out.println(joe);
+
+        joe.setTailLength(13);
+//        System.out.println(joe);
+
+        Dog Bob = new Dog("Bob", 4, "Wow");
+        System.out.println(Bob);
     }
+
 }

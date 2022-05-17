@@ -1,2 +1,0 @@
-# pitlord
-Pitlord project
