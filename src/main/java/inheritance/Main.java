@@ -1,3 +1,5 @@
+package inheritance;
+
 import inheritance.Animal;
 import inheritance.Dog;
 import inheritance.Lizard;
