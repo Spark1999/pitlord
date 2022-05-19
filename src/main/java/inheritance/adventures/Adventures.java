@@ -1,4 +1,4 @@
-package adventures;
+package inheritance.adventures;
 
 public class Adventures {
 
