@@ -1,4 +1,4 @@
-package forest;
+package inheritance.forest;
 
 import java.util.ArrayList;
 import java.util.Arrays;

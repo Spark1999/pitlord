@@ -1,4 +1,4 @@
-package forest;
+package inheritance.forest;
 
 public class Fruit extends Food {
     Integer sweetness;
