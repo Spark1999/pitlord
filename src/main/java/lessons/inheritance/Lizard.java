@@ -1,4 +1,4 @@
-package inheritance;
+package lessons.inheritance;
 
 public class Lizard extends Animal {
     Integer tailLength;

@@ -1,4 +1,4 @@
-package mountain;
+package lessons.mountain;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package mountain;
+package lessons.mountain;
 
 public class Fruit {
     String name;

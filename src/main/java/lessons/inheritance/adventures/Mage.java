@@ -1,4 +1,4 @@
-package inheritance.adventures;
+package lessons.inheritance.adventures;
 
 import java.util.ArrayList;
 import java.util.Arrays;

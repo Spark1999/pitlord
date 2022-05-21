@@ -1,4 +1,4 @@
-package inheritance.adventures;
+package lessons.inheritance.adventures;
 
 public class Hero {
     String name;

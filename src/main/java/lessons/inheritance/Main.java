@@ -1,12 +1,4 @@
-package inheritance;
-
-import inheritance.Animal;
-import inheritance.Dog;
-import inheritance.Lizard;
-
-import javax.sound.midi.Soundbank;
-import java.util.ArrayList;
-import java.util.Arrays;
+package lessons.inheritance;
 
 public class Main {
 

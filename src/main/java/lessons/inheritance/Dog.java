@@ -1,4 +1,4 @@
-package inheritance;
+package lessons.inheritance;
 
 public class Dog extends Animal {
 

@@ -1,4 +1,4 @@
-package inheritance.forest;
+package lessons.inheritance.forest;
 
 public class MathAndLogic {
     public static void main(String[] args) {

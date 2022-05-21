@@ -1,4 +1,4 @@
-package inheritance.forest;
+package lessons.inheritance.forest;
 
 public class Food {
     String type;

@@ -1,4 +1,4 @@
-package inheritance;
+package lessons.inheritance;
 
 import java.util.ArrayList;
 import java.util.Arrays;
