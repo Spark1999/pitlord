@@ -9,11 +9,23 @@ public class Adventures {
 
     public static void main(String[] args) throws IOException {
 
+        String text = "";
+
+        StringBuffer buffer = new StringBuffer();
+
         File file = new File("C:\\Users\\AndU\\Projects\\pitlord\\src\\main\\java\\lessons.books\\magic-tales.txt");
         Scanner yourSkanner = new Scanner(file);
         while (yourSkanner.hasNextLine()) {
+
+            buffer.append(yourSkanner.next());
+
             System.out.println(yourSkanner.nextLine());
         }
+
+        text = buffer.toString();
+
+
+
         yourSkanner.close();
 
         String way = "C:\\Users\\AndU\\Projects\\pitlord\\src\\main\\java\\lessons.books\\useless.txt";
