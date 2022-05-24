@@ -5,28 +5,50 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        makeFruits();
-        makeGreeting();
+//        makeFruits();
+//        makeGreeting();
 
-        String userName = "";
-        Integer age = 0;
+//        String userName = "";
+//        Integer age = 0;
+//
+//        Scanner myScanner = new Scanner(System.in);
+//        System.out.println("What is your name?");
+//
+//        userName = myScanner.nextLine();
+//
+//        System.out.println("Ok, that's good. And what is your age?");
+//        age = myScanner.nextInt();
+//
+//        if (age >= 21) {
+//            System.out.printf("Welcome, %s, you are a great hero. You can pass.", userName);
+//        } else {
+//            System.out.printf("Sorry, %s, you are too young.", userName);
+//        }
+//
+//        // System.out.printf("Information gathered. Your name is %s and your age is %d", userName, age);
+//        myScanner.close();
 
-        Scanner myScanner = new Scanner(System.in);
-        System.out.println("What is your name?");
+        Fruit myFruit = new Fruit("orange", 15);
 
-        userName = myScanner.nextLine();
+        Fruit present1 = myFruit;
+        Fruit present2 = myFruit;
 
-        System.out.println("Ok, that's good. And what is your age?");
-        age = myScanner.nextInt();
+        present1.setPrice(21);
+        present2.setPrice(7);
 
-        if (age >= 21) {
-            System.out.printf("Welcome, %s, you are a great hero. You can pass.", userName);
-        } else {
-            System.out.printf("Sorry, %s, you are too young.", userName);
-        }
+//        System.out.println("Present1: " + present1.toString());
+//        System.out.println("Present2: " + present2.toString());
 
-        // System.out.printf("Information gathered. Your name is %s and your age is %d", userName, age);
-        myScanner.close();
+        myFruit.setPrice(35);
+//        System.out.println("Present1: " + present1.toString());
+//        System.out.println("Present2: " + present2.toString());
+
+//        int a = 5;
+//        int c = a;
+//        a = 6;
+//        System.out.println("c is: " + c);
+
+
     }
 
     public static void makeFruits() {
@@ -46,6 +68,10 @@ public class Main {
                 heroClass, heroName, heroGold);
 
         System.out.println(message);
+    }
+
+    public static void sendParcel(Fruit fruit) {
+        System.out.println("Info: " + fruit.toString());
     }
 
 }

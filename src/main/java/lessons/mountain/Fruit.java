@@ -37,5 +37,22 @@ public class Fruit {
                 ", price=" + price +
                 '}';
     }
+
+
+    public void save(String destination) {
+        System.out.println("Saved a fruit into " + destination);
+    }
+
+    public void driveFruit(String manager) {
+        System.out.println("Manager " + manager + " said to drive a fruit to the storage");
+    }
+
+    public void sellFruit(String buyer) {
+        System.out.println("Fruit was sold to " + buyer);
+    }
+
+    public void notifyEndOfStoring() {
+        System.out.println("I am from Fruit, I ended storing");
+    }
 }
 
